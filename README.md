@@ -1,5 +1,5 @@
 # Flight_Data_Analysis_Python_Project
-Analysis and projections of various metrics (Airline, Destination, Arrival Time, etc) for flights in India using Python to determine price variations, airline preferences, and more. 
+Analysis and projections of various metrics (Airline, Destination, Arrival Time, etc) for flights in India using Python to determine price variations, airline preferences, and more to identify cost-saving opportunities, spot demand trends, and support smarter strategic decisions for airlines in India.
 
 # Python Libraries:
 • Pandas
