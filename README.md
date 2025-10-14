@@ -3,6 +3,7 @@ Analysis and projections of various metrics (Airline, Destination, Arrival Time,
 
 # Python Libraries:
 • Pandas
+• Numpy
 • MatPlotLib
 • Seaborn
 
