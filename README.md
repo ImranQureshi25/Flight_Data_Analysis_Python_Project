@@ -14,6 +14,7 @@ A reproducible Jupyter-based analysis of airline fares for domestic flights in I
 
 ## What the notebook does
 - Loads and inspects the dataset (300,153 rows).
+- Columns include important variables such as class, airline, price, booking time, duration, cities, and timing.
 - Cleans the data (drops redundant index column, checks for nulls and duplicates).
 - Feature engineering:
   - `price (USD $)`: converts fares using the conversion factor applied in the notebook (price * 0.012, rounded).
@@ -23,7 +24,7 @@ A reproducible Jupyter-based analysis of airline fares for domestic flights in I
   - Produces distribution plots and summary statistics to describe fare behavior by route, class, lead time, and time of day.
 
 ## Key Insights 
-- Price-per-hour analysis reveals airlines with much higher or lower unit cost than absolute fares suggest.
+- Price-per-hour analysis reveals airlines with much higher or lower unit costs than absolute fares suggest.
 - Business vs Economy: Business class consistently commands a premium; the size of the premium varies by route.
 - Booking lead-time affects fares: As the number of days to departure decreases below 10-15 days, fares increase substantially.
 - Time-of-day matters: Certain departure windows, such as morning and early morning, tend to have higher fares and different durations. 
