@@ -14,7 +14,6 @@ A reproducible Jupyter-based analysis of airline fares for domestic flights in I
 
 ## What the notebook does
 - Loads and inspects the dataset (300,153 rows).
-- Columns include important variables such as class, airline, price, booking time, duration, cities, and timing.
 - Cleans the data (drops redundant index column, checks for nulls and duplicates).
 - Feature engineering:
   - `price (USD $)`: converts fares using the conversion factor applied in the notebook (price * 0.012, rounded).
