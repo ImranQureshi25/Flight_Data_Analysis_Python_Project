@@ -1,6 +1,10 @@
 # Flight Data Analysis — Python Project
 
-A reproducible Jupyter-based analysis of airline fares for domestic flights in India. The project analyzes a 300k-row Kaggle dataset to surface pricing patterns and support further analytics.
+• Analyzing a 300k‑row Indian flight dataset using Python (Pandas, Numpy) and visualization libraries (Seaborn, Matplotlib) to build features like price in USD and price‑per‑hour that enable airline cost‑efficiency comparisons.
+
+• Engineering a reproducible Jupyter pipeline that aggregates fares by class, route, and time of day and produces clear visualizations to surface opportunities for reducing passenger expenses and optimizing yield.
+
+• Identifying booking lead‑time and time‑of‑day patterns from plotted summaries to recommend timing and route‑based pricing strategies that lower cost per passenger.
 
 ## Dataset & Notebook
 - Source notebook: `Flight_Data_Analysis_Python_Project.ipynb`
