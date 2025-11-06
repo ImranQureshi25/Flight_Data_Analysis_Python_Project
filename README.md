@@ -1,4 +1,4 @@
-# Flight Data Analysis — Python Project
+# Flight Data Analysis — Python and R Project
 
 • Analyzing a 300k‑row Indian flight dataset using Python (Pandas, Numpy) and visualization libraries (Seaborn, Matplotlib) to build features like price in USD and price‑per‑hour that enable airline cost‑efficiency comparisons.
 
