@@ -3,12 +3,12 @@ summary(df)
 hist.price <- hist(df$price[df$class == "Economy"]) ## Heavily Right Skewed ## 
 hist.duration <- hist(df$duration[df$class == "Economy"]) ## Mildly Right Skewed ##
 
-## Logarithmic Price Normalization ##
+## Logarithmic Price Transformation ##
 ## Data is right-skewed so logarithmic method needed ##
 price.log <- log(df$price[df$class == "Economy"])
 hist(price.log)
 
-## Square Root Duration Normalization ##
+## Square Root Duration Transformation ##
 ## Data is mildly right-skewed so square root method needed ##
 duration.sqrt <- sqrt(df$duration[df$class == "Economy"])
 hist(duration.sqrt)
