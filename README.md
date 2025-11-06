@@ -12,9 +12,9 @@
 - Dataset size used in analysis: 300,153 rows and 12 columns (after inspection: airline, flight, source_city, departure_time, stops, arrival_time, destination_city, class, duration, days_left, price, plus derived features).
 
 ## Tools & Libraries
-- Python (Pandas, NumPy)
+- Python (Pandas, NumPy) and R
 - Visualization: Matplotlib, Seaborn
-- Environment: Jupyter Notebook
+- Environment: Jupyter Notebook and RStudio
 
 ## What the notebook does
 - Loads and inspects the dataset (300,153 rows).
@@ -25,6 +25,11 @@
 - Aggregations and visualizations:
   - Aggregates fares by class (Economy/Business), route (source → destination), and time-of-day windows (departure/arrival buckets).
   - Produces distribution plots and summary statistics to describe fare behavior by route, class, lead time, and time of day.
+ 
+  ## What the R file does
+  - Performs price and duration variable transformation to preserve normal distribution.
+  - Calculates correlation coefficient to provide context for price and duration relationship.
+  - Creates scatter plot with trend line to determine price from specified duration. 
 
 ## Key Insights 
 - Price-per-hour analysis reveals airlines with much higher or lower unit costs than absolute fares suggest.
