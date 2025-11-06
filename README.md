@@ -16,7 +16,7 @@
 - Visualization: Matplotlib, Seaborn
 - Environment: Jupyter Notebook and RStudio
 
-## What the notebook does
+## What the Notebook does
 - Loads and inspects the dataset (300,153 rows).
 - Cleans the data (drops redundant index column, checks for nulls and duplicates).
 - Feature engineering:
@@ -26,10 +26,10 @@
   - Aggregates fares by class (Economy/Business), route (source → destination), and time-of-day windows (departure/arrival buckets).
   - Produces distribution plots and summary statistics to describe fare behavior by route, class, lead time, and time of day.
  
-  ## What the R file does
-  - Performs price and duration variable transformation to preserve normal distribution.
-  - Calculates correlation coefficient to provide context for price and duration relationship.
-  - Creates scatter plot with trend line to determine price from specified duration. 
+ ## What the R file does
+- Performs price and duration variable transformation to preserve normal distribution.
+- Calculates correlation coefficient to provide context for price and duration relationship.
+- Creates scatter plot with trend line to determine price from specified duration. 
 
 ## Key Insights 
 - Price-per-hour analysis reveals airlines with much higher or lower unit costs than absolute fares suggest.
