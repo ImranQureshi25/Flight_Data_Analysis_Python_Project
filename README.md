@@ -4,7 +4,7 @@
 
 • Engineering a reproducible Jupyter pipeline that aggregates fares by class, route, and time of day and produces clear visualizations to surface opportunities for reducing passenger expenses and optimizing yield.
 
-• Performing R-based exploratory and statistical analysis for prices and duration correlation through data normalization and interpreting coefficients for scatter plot visualization.
+• Performing R-based exploratory and statistical analysis for prices and duration correlation through data transformation and interpreting coefficients for scatter plot visualization.
 
 ## Dataset & Notebook
 - Source notebook: `Flight_Data_Analysis_Python_Project.ipynb`
