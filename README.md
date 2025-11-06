@@ -1,10 +1,10 @@
-# Flight Data Analysis — Python Project
+# Flight Data Analysis — Python and R Project
 
 • Analyzing a 300k‑row Indian flight dataset using Python (Pandas, Numpy) and visualization libraries (Seaborn, Matplotlib) to build features like price in USD and price‑per‑hour that enable airline cost‑efficiency comparisons.
 
 • Engineering a reproducible Jupyter pipeline that aggregates fares by class, route, and time of day and produces clear visualizations to surface opportunities for reducing passenger expenses and optimizing yield.
 
-• Identifying booking lead‑time and time‑of‑day patterns from plotted summaries to recommend timing and route‑based pricing strategies that lower cost per passenger.
+• Performing R-based exploratory and statistical analysis for prices and duration correlation through data normalization and interpreting coefficients for scatter plot visualization.
 
 ## Dataset & Notebook
 - Source notebook: `Flight_Data_Analysis_Python_Project.ipynb`
